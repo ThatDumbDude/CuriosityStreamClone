@@ -76,7 +76,9 @@ position: a;
 .p1 {
   background: #b07a7a;
 }
-
+#endd{
+  
+}
 
 .bgimg {
   background-size: cover;
@@ -90,6 +92,7 @@ position: a;
   background-image: linear-gradient(to right bottom, rgb(37, 99, 235), rgb(102, 0, 204));
 
 }
+
 
 /* .head2{
   z-index: 4;
@@ -105,6 +108,11 @@ position: a;
 .db {
   display: block;
 }
+
+table{
+  height: 80vh !important;
+}
+
  th, td {
   border: 1px solid white;
   border-collapse: collapse;
@@ -141,8 +149,43 @@ height: 47.52px;
 width: 47.52px;
 border-radius: 50%;
 border-width: 0;
-align-self: flex-end;
-position: fixed;
+margin-left: 70rem;
 }
 .booz{
 }
+
+.card{
+  
+}
+#ccca {
+  background: #1D1D1D;
+  color: white;
+  border:solid 1px #eb8b4c;
+  display: flex;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+  
+ 
+
+#carr{
+background: #8b8b8b;
+}
+
+
+
+
+
+
+
+/* ################################################################################## */
+@media (max-width: 700px) {
+ .midhid{
+  display: none;
+ }
+}
+@media (min-width: 700px) {
+  .smvis{
+   display: none;
+  }
+ }
