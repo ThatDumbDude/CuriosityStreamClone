@@ -56,10 +56,12 @@ position: a;
 #mbutt {
   height: 64px;
   width: 191px;
-  background-image: linear-gradient(var(--border-gradient-direction, to bottom), var(--border-gradient-base-from, transparent), var(--border-gradient-base-to, transparent)), linear-gradient(var(--border-gradient-direction, to bottom), var(--border-gradient-from, transparent), var(--border-gradient-to, transparent));
+  background-image: linear-gradient(147deg, rgb(236, 195, 52), rgb(235, 139, 76));
 }
-
-
+#mbutt:hover{
+  
+  background-image: linear-gradient(147deg, rgb(235, 139, 76), rgb(236, 195, 52));
+}
 .dd4 {
   height: 128px;
   width: 288px;
@@ -112,6 +114,7 @@ tbody tr :nth-child(1),thead tr :nth-child(1) {
   color: white;
 }
 
+
 tbody tr :nth-child(3),thead tr :nth-child(3){
   /* background: rgb(53, 53, 53); */
   background-image: linear-gradient(to right, rgb(37, 99, 235), rgb(102, 0, 204));
@@ -134,6 +137,7 @@ tbody tr,thead tr {
   text-size-adjust: 100% */
 }
 .fixpill{
+
 background: #eea83d ;
 height: 47.52px;
 width: 47.52px;
@@ -146,13 +150,26 @@ margin-left: 70rem;
   background: #1D1D1D;
   border:solid 1px #eb8b4c;
   color: white;
+  justify-self: center;
+  align-items: center;
 }
+#carr:hover{
+
+  border:solid 2.5px #eb8b4c;
   
+} 
+.smart:hover{
+background: linear-gradient(147deg, rgb(236, 195, 52), rgb(235, 139, 76));
+border: 2px solid;
+
+}
 
 .custom-card-container button{
   margin-top: 10rem;
 }
-
+.checkk img{
+  background: none !important;
+}
 
 
 
@@ -169,3 +186,4 @@ margin-left: 70rem;
    display: none;
   }
  }
+
