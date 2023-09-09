@@ -18,8 +18,6 @@ h6 {
   font-family: 'Graphik';
 }
 
-body {}
-
 
 .imdi {
   /* background-image: url("Sources/icons&imgs/headerbg.jpg");
@@ -54,7 +52,6 @@ position: a;
   z-index: 2;
 }
 
-.section1 {}
 
 #mbutt {
   height: 64px;
@@ -76,9 +73,7 @@ position: a;
 .p1 {
   background: #b07a7a;
 }
-#endd{
-  
-}
+
 
 .bgimg {
   background-size: cover;
@@ -98,12 +93,7 @@ position: a;
   z-index: 4;
 }
 */
-.car {}
 
-
-.carousel-item {}
-
-.carousel-indicators button {}
 
 .db {
   display: block;
@@ -151,12 +141,7 @@ border-radius: 50%;
 border-width: 0;
 margin-left: 70rem;
 }
-.booz{
-}
 
-.card{
-  
-}
 #carr {
   background: #1D1D1D;
   border:solid 1px #eb8b4c;
@@ -164,7 +149,9 @@ margin-left: 70rem;
 }
   
 
-
+.custom-card-container button{
+  margin-top: 10rem;
+}
 
 
 
