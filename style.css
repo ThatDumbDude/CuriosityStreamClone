@@ -2,6 +2,8 @@
   font-family: 'Graphik';
 }
 
+
+
 @font-face {
   font-family: 'Graphik';
   font-style: normal;
@@ -243,6 +245,14 @@ border: 2px solid;
 
 input{
   background-color: rgb(29, 29, 29);
+}
+
+footer ul{
+  list-style-type: none
+}
+footer li{
+  margin-left: 1rem;
+  
 }
 
 
