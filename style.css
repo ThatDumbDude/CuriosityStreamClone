@@ -279,7 +279,9 @@ display: none !important;
 .col1,.head1{
   display: none !important;
 }
-
+.icons{
+  display: none;
+}
 }
 
 
