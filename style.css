@@ -60,10 +60,12 @@ position: a;
   width: 191px;
   background-image: linear-gradient(147deg, rgb(236, 195, 52), rgb(235, 139, 76));
 }
-#mbutt:hover{
-  
+
+#mbutt:hover {
+
   background-image: linear-gradient(147deg, rgb(235, 139, 76), rgb(236, 195, 52));
 }
+
 .dd4 {
   height: 128px;
   width: 288px;
@@ -101,8 +103,10 @@ position: a;
   position: fixed;
   bottom: 2rem;
   right: 1rem;
-  border-radius: 50px !important;  /* Adjust this value to control the pill shape */
-  padding: 10px 20px; /* Adjust the padding as needed */
+  border-radius: 50px !important;
+  /* Adjust this value to control the pill shape */
+  padding: 10px 20px;
+  /* Adjust the padding as needed */
   background: rgb(238, 168, 61) !important;
 }
 
@@ -110,34 +114,42 @@ position: a;
   display: block;
 }
 
-table{
+table {
   height: 80vh !important;
 }
 
- th, td {
+th,
+td {
   border: 1px solid white;
   border-collapse: collapse;
 }
-tbody tr :nth-child(1),thead tr :nth-child(1) {
+
+tbody tr :nth-child(1),
+thead tr :nth-child(1) {
   background: #1D1D1D;
   color: white;
 }
 
 
-tbody tr :nth-child(3),thead tr :nth-child(3){
+tbody tr :nth-child(3),
+thead tr :nth-child(3) {
   /* background: rgb(53, 53, 53); */
   background-image: linear-gradient(to right, rgb(37, 99, 235), rgb(102, 0, 204));
   color: white;
 }
 
-tbody tr :nth-child(2),thead tr :nth-child(2){
+tbody tr :nth-child(2),
+thead tr :nth-child(2) {
   /* background: rgb(53, 53, 53); */
   background-color: rgb(53, 53, 53);
   color: white;
 }
-tbody tr,thead tr {
+
+tbody tr,
+thead tr {
   border-bottom: solid gray 1px;
 }
+
 .circle {
   background-image: linear-gradient(147.14deg, #ecc334 6.95%, #eb8b4c 93.05%);
   /* width: 40px;
@@ -145,51 +157,59 @@ tbody tr,thead tr {
   border-radius: 50px;
   text-size-adjust: 100% */
 }
-.fixpill{
 
-background: #eea83d ;
-height: 47.52px;
-width: 47.52px;
-border-radius: 50%;
-border-width: 0;
-margin-left: 70rem;
+.fixpill {
+
+  background: #eea83d;
+  height: 47.52px;
+  width: 47.52px;
+  border-radius: 50%;
+  border-width: 0;
+  margin-left: 70rem;
 }
 
 #carr {
   background: #1D1D1D;
-  border:solid 1px #eb8b4c;
+  border: solid 1px #eb8b4c;
   color: white;
   justify-self: center;
   align-items: center;
 }
-#carr:hover{
 
-  border:solid 2.5px #eb8b4c;
-  
-} 
-.smart:hover{
-background: linear-gradient(147deg, rgb(236, 195, 52), rgb(235, 139, 76));
-border: 2px solid;
+#carr:hover {
+
+  border: solid 2.5px #eb8b4c;
 
 }
 
-.custom-card-container button{
+.smart:hover {
+  background: linear-gradient(147deg, rgb(236, 195, 52), rgb(235, 139, 76));
+  border: 2px solid;
+
+}
+
+.custom-card-container button {
   margin-top: 10rem;
 }
-.checkk img{
+
+.checkk img {
   background: none !important;
 }
-.card-body{
+
+.card-body {
   margin-top: 2rem;
 }
-.card-body h5{
+
+.card-body h5 {
   margin-top: 2rem;
 }
-.card-body p{
+
+.card-body p {
   margin-top: 2rem;
-  
+
 }
-.card-body button{
+
+.card-body button {
   margin-top: 5rem;
 }
 
@@ -204,55 +224,70 @@ border: 2px solid;
   padding: 1rem;
   grid-template-rows: 18rem 18rem;
   justify-content: center;
-  
-}
-
-
-
-.d11,.d12,.d13,.d14 :hover{
-
 
 }
-.d11,.d12{
+
+
+
+.d11,
+.d12,
+.d13,
+.d14 :hover {}
+
+.d11,
+.d12 {
   background: rgb(29, 29, 29);
-  
+
 }
-.d13,.d14{
+
+.d13,
+.d14 {
   background-image: linear-gradient(to right bottom, rgb(59, 130, 246), rgb(83, 59, 226));
-}
-
-.d11:hover,.d12:hover,.d13:hover {
-  border:solid 4px #353535;
   
 }
 
-.d14{
-  border:solid 4px rgb(235, 139, 76) ;
-
-}
-.bst{
-  background:  rgb(235, 139, 76);
-  margin-top: 0;
-  
-}
-.bvalue{
-  margin-top: 0;
+.d13 button,
+.d14 button {
+  margin-bottom: 1rem;
 }
 
-.bvalue button{
+.d11:hover,
+.d12:hover,
+.d13:hover {
+  border: solid 4px #353535;
+
+}
+
+.d14 {
+  border: solid 4px rgb(235, 139, 76);
+
+}
+
+.bst {
+  background: rgb(235, 139, 76);
+  margin-top: 0;
+
+}
+
+.bvalue {
+  margin-top: 0;
+}
+
+.bvalue button {
   margin-top: 2rem;
 }
 
-input{
+input {
   background-color: rgb(29, 29, 29);
 }
 
-footer ul{
+footer ul {
   list-style-type: none
 }
-footer li{
+
+footer li {
   margin-left: 1rem;
-  
+
 }
 
 
@@ -263,34 +298,39 @@ footer li{
 
 
 @media (max-width: 767px) {
- .midhid{
-  display: none;
- }
-.cdiv {
-display: none !important;
+  .midhid {
+    display: none;
+  }
 
-  
-}
-.d1 {
-  grid-template-columns: repeat(1, 23rem);
+  .cdiv {
+    display: none !important;
 
-}
 
-.col1,.head1{
-  display: none !important;
-}
-.icons{
-  display: none;
-}
+  }
+
+  .d1 {
+    grid-template-columns: repeat(1, 23rem);
+
+  }
+
+  .col1,
+  .head1 {
+    display: none !important;
+  }
+
+  .icons {
+    display: none;
+  }
 }
 
 
 @media (min-width: 767px) {
-  .smvis{
-   display: none;
+  .smvis {
+    display: none;
   }
- }
+}
 
-.navbtn:hover{
-  background: linear-gradient(147deg, rgb(236, 195, 52), rgb(235, 139, 76));;
+.navbtn:hover {
+  background: linear-gradient(147deg, rgb(236, 195, 52), rgb(235, 139, 76));
+  ;
 }
