@@ -204,6 +204,9 @@ border: 2px solid;
   justify-content: center;
   
 }
+
+
+
 .d11,.d12,.d13,.d14 :hover{
 
 
@@ -247,16 +250,30 @@ input{
 
 
 /* ################################################################################## */
-@media (max-width: 700px) {
+
+
+@media (max-width: 767px) {
  .midhid{
   display: none;
  }
 .cdiv {
 display: none !important;
+
   
 }
+.d1 {
+  grid-template-columns: repeat(1, 23rem);
+
 }
-@media (min-width: 700px) {
+
+.col1,.head1{
+  display: none !important;
+}
+
+}
+
+
+@media (min-width: 767px) {
   .smvis{
    display: none;
   }
