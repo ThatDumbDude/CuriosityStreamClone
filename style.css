@@ -95,7 +95,14 @@ position: a;
   z-index: 4;
 }
 */
-
+.custom-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+  border-radius: 50px !important;  /* Adjust this value to control the pill shape */
+  padding: 10px 20px; /* Adjust the padding as needed */
+  background: rgb(238, 168, 61) !important;
+}
 
 .db {
   display: block;
@@ -170,6 +177,70 @@ border: 2px solid;
 .checkk img{
   background: none !important;
 }
+.card-body{
+  margin-top: 2rem;
+}
+.card-body h5{
+  margin-top: 2rem;
+}
+.card-body p{
+  margin-top: 2rem;
+  
+}
+.card-body button{
+  margin-top: 5rem;
+}
+
+
+.d1 {
+  display: grid;
+  width: fit-content;
+  grid-template-columns: repeat(2, 23rem);
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  column-gap: 25px;
+  padding: 1rem;
+  grid-template-rows: 18rem 18rem;
+  justify-content: center;
+  
+}
+.d11,.d12,.d13,.d14 :hover{
+
+
+}
+.d11,.d12{
+  background: rgb(29, 29, 29);
+  
+}
+.d13,.d14{
+  background-image: linear-gradient(to right bottom, rgb(59, 130, 246), rgb(83, 59, 226));
+}
+
+.d11:hover,.d12:hover,.d13:hover {
+  border:solid 4px #353535;
+  
+}
+
+.d14{
+  border:solid 4px rgb(235, 139, 76) ;
+
+}
+.bst{
+  background:  rgb(235, 139, 76);
+  margin-top: 0;
+  
+}
+.bvalue{
+  margin-top: 0;
+}
+
+.bvalue button{
+  margin-top: 2rem;
+}
+
+input{
+  background-color: rgb(29, 29, 29);
+}
 
 
 
@@ -180,6 +251,10 @@ border: 2px solid;
  .midhid{
   display: none;
  }
+.cdiv {
+display: none !important;
+  
+}
 }
 @media (min-width: 700px) {
   .smvis{
@@ -187,3 +262,6 @@ border: 2px solid;
   }
  }
 
+.navbtn:hover{
+  background: linear-gradient(147deg, rgb(236, 195, 52), rgb(235, 139, 76));;
+}
